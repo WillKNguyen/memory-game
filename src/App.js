@@ -13,18 +13,18 @@ class App extends Component {
       highscore: 0,
     };
     this.mapper = {
-      1: '/assets/tn_bn-flag.gif',
-      2: '/assets/tn_au-flag.gif',
-      3: '/assets/tn_en-flag.gif',
-      5: '/assets/tn_fr-flag.gif',
-      6: '/assets/tn_gg-flag.gif',
-      7: '/assets/tn_hu-flag.gif',
-      4: '/assets/tn_ja-flag.gif',
-      8: '/assets/tn_le-flag.gif',
-      9: '/assets/tn_mt-flag.gif',
-      10: '/assets/tn_pe-flag.gif',
-      11: '/assets/tn_sn-flag.gif',
-      12: '/assets/tn_ts-flag.gif',
+      1: './memory-game/assets/tn_bn-flag.gif',
+      2: './memory-game/assets/tn_au-flag.gif',
+      3: './memory-game/assets/tn_en-flag.gif',
+      5: './memory-game/assets/tn_fr-flag.gif',
+      6: './memory-game/assets/tn_gg-flag.gif',
+      7: './memory-game/assets/tn_hu-flag.gif',
+      4: './memory-game/assets/tn_ja-flag.gif',
+      8: './memory-game/assets/tn_le-flag.gif',
+      9: './memory-game/assets/tn_mt-flag.gif',
+      10: './memory-game/assets/tn_pe-flag.gif',
+      11: './memory-game/assets/tn_sn-flag.gif',
+      12: './memory-game/assets/tn_ts-flag.gif',
     };
   }
   checkscore = (e) => {
